@@ -10,13 +10,13 @@ npx playwright install
 
 **Run Test Suites (Headed Mode)**
 # Negative Functional Tests
-npx playwright test tests/negative-spec --headed
+npx playwright test negative.spec.js --headed
 
 # UI Tests
-npx playwright test tests/ui-spec --headed
+npx playwright test ui.spec.js --headed
 
 # Positive Functional Tests
-npx playwright test tests/positive-spec --headed
+npx playwright test positive.spec.js --headed
 
 **Technologies Used**
 - Node.js
