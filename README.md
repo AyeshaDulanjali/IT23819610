@@ -1,9 +1,22 @@
-**Playwright Automation – Swift Translator**
-Registration Number: IT23819610
+**IT23819610 -ITPM Assignment 01 (IT3040)** 
 
-**Project Overview**
-This repository contains automated test cases developed using Playwright to test the Swift Translator web application.
-Both Positive and Negative Functional/UI test cases are implemented based on the provided test case template.
+This assignment evaluates a real-world web-based language transliteration system using automated testing with Playwright. The objective is to verify the accuracy, robustness, and UI behavior of the application when converting Singlish to Sinhala.
+
+The test suite includes positive functional tests, negative functional tests, UI tests,covering different sentence structures, input lengths, mixed-language inputs, and formatting variations. All test cases were automated using Playwright and executed in a structured manner aligned with IT3040 – ITPM module requirements.
+
+**Install Dependencies**
+npm install
+npx playwright install
+
+**Run Test Suites (Headed Mode)**
+# Negative Functional Tests
+npx playwright test tests/negative-spec --headed
+
+# UI Tests
+npx playwright test tests/ui-spec --headed
+
+# Positive Functional Tests
+npx playwright test tests/positive-spec --headed
 
 **Technologies Used**
 - Node.js
@@ -30,21 +43,10 @@ Before running the tests, ensure the following are installed:
 4. Install Playwright browsers:
    npx playwright install
 
-**Running the Tests**
-To execute all automated test cases:
-   npx playwright test
-
-To run tests in headed mode:
-   npx playwright test --headed
-
 **Viewing the HTML Test Report**
 After test execution, view the Playwright HTML report using:
    npx playwright show-report
    
-**Run And open it Swift Translator**
-use this code - npx playwright test negative.spec.js --headed
-                npx playwright test positive.spec.js --headed
-
 Alternatively, open the report manually:
    playwright-report/index.html
 
