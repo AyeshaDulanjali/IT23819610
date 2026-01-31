@@ -40,6 +40,10 @@ To run tests in headed mode:
 **Viewing the HTML Test Report**
 After test execution, view the Playwright HTML report using:
    npx playwright show-report
+   
+**Run And open it Swift Translator**
+use this code - npx playwright test negative.spec.js --headed
+                npx playwright test positive.spec.js --headed
 
 Alternatively, open the report manually:
    playwright-report/index.html
