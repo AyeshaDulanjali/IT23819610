@@ -17,7 +17,7 @@ test.describe('Positive Functional Tests – Swift Translator', () => {
     }
 
     throw new Error('No translation output found!');
-    
+
   }
 
   test.beforeEach(async ({ page }) => {
@@ -227,6 +227,5 @@ test.describe('Positive Functional Tests – Swift Translator', () => {
     );const outputBox = await getTranslationOutput(page);
     await expect(outputBox).toContainText('හෙට කමල් office යනවනම් , මේ parcel එක ජයනිට දෙන්න.');
   });
-
 
 });
