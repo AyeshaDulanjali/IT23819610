@@ -1,0 +1,254 @@
+[
+    {
+        "id": "Pos_Func_001",
+        "name": "Convert simple daily activity sentence",
+        "type": "S",
+        "input": "pinnasa bonn kanuwa",
+        "expected_output": "TODO: Add expected output in script"
+    },
+    {
+        "id": "Pos_Func_002",
+        "name": "Convert compound sentence with condition",
+        "type": "M",
+        "input": "akkas pāncal yannako, kaebayi ammath ekkama thama yanne",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_003",
+        "name": "Convert complex sentence with clause",
+        "type": "M",
+        "input": "mata wena paataaka vahana accident eka kiyala",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_004",
+        "name": "Convert interrogative future related sentence",
+        "type": "M",
+        "input": "oya kavadada oya rata yanna try karanna inne",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_005",
+        "name": "Convert imperative command sentence",
+        "type": "S",
+        "input": "kannadi gala ain karala danna",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_006",
+        "name": "Convert instructional command sentence",
+        "type": "M",
+        "input": "pusa wathura bona ekata poddak ida denna",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_Func_007",
+        "name": "Convert negative sentence form",
+        "type": "M",
+        "input": "oya pitisara duwa karanna bari wada thiyenawada",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_008",
+        "name": "Convert greeting phrase",
+        "type": "S",
+        "input": "suba sandewak",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_009",
+        "name": "Convert simple request sentence",
+        "type": "S",
+        "input": "magen podi illima ekak thiyenawa",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_010",
+        "name": "Convert positive assurance sentence",
+        "type": "M",
+        "input": "eyalata hemadama apita udaw karanna puluwan",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_011",
+        "name": "Convert polite request question",
+        "type": "M",
+        "input": "karunakarala mata meka karanne kohomada kiyala kiyala denawada?",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_Func_012",
+        "name": "Convert informal imperative sentence",
+        "type": "S",
+        "input": "wata wahanna kalpan",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_013",
+        "name": "Convert future force working arrangement sentence",
+        "type": "M",
+        "input": "api heta class ekata hamuwemu",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_014",
+        "name": "Convert informal request with future intent",
+        "type": "M",
+        "input": "poddak issarahata gihin enna",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_015",
+        "name": "Convert sentence with place reference",
+        "type": "M",
+        "input": "amma nangiwa library ekata yawanna",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_Func_016",
+        "name": "Handle joined words without spacing",
+        "type": "S",
+        "input": "pinnasabonakanuwa",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_UI_017",
+        "name": "Convert repeated word expression",
+        "type": "S",
+        "input": "toudak toudak",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_018",
+        "name": "Convert past tense sentence",
+        "type": "M",
+        "input": "thaththa iye sandala giya",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_019",
+        "name": "Convert past tense sentence with time reference",
+        "type": "M",
+        "input": "ayiya dhahayata paareta giya",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_020",
+        "name": "Convert future tense religious activity sentence",
+        "type": "M",
+        "input": "api ilanga poya da sil gannawada",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_Func_021",
+        "name": "Convert negative command sentence",
+        "type": "M",
+        "input": "mata class ekata yanna kiwwa kapa",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_022",
+        "name": "Convert sentence with place reference",
+        "type": "M",
+        "input": "loku amma sathuta uyanata giya",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_023",
+        "name": "Convert plural pronoun question",
+        "type": "M",
+        "input": "yaluwo ape gedara enawada?",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_024",
+        "name": "Convert polite request question",
+        "type": "M",
+        "input": "karunakara la potha mata denawada?",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_025",
+        "name": "Convert mixed Singlish and English request",
+        "type": "M",
+        "input": "mata oyage WIFI password eka denna puluwanda?",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_Func_026",
+        "name": "Convert technical mixed-language question",
+        "type": "M",
+        "input": "zoom meeting link eka whatsapp karanna puluwanda?",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_027",
+        "name": "Convert mixed language polite request",
+        "type": "M",
+        "input": "oyage USB pen eka mata denawada?",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_028",
+        "name": "Convert greeting with punctuation",
+        "type": "S",
+        "input": "ola! elakiri adahasak ne!",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_UI_029",
+        "name": "Convert sentence with numbers",
+        "type": "M",
+        "input": "bank eke USD 500 dollars thibuna",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_UI_030",
+        "name": "Convert sentence with time format",
+        "type": "M",
+        "input": "heta campus lectures 4.00 PM",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_031",
+        "name": "Convert sentence with date format",
+        "type": "M",
+        "input": "12/01/2026 dhavasata mata loku assessment ekak thiyanawa",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_032",
+        "name": "Convert sentence with unit of measurement",
+        "type": "M",
+        "input": "mama dawasata 1000ml wathura bonawa",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_033",
+        "name": "Convert daily need expression",
+        "type": "M",
+        "input": "mata hawasata coffee ekak bonna asayi",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Pos_Func_034",
+        "name": "Convert conditional compound sentence",
+        "type": "M",
+        "input": "heta kamal office yanne nam, man ayeth gedara yanne naha",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_UI_035",
+        "name": "Convert long paragraph-style input",
+        "type": "L",
+        "input": "thawathura thanthra nirmana karanna puluwan nam lankawe godak dewal wenas karanna puluwan",
+        "expected_output": "TODO"
+    },
+    {
+        "id": "Neg_Func_036",
+        "name": "Handle slang with punctuation",
+        "type": "M",
+        "input": "machang, api heta set wemu!",
+        "expected_output": "TODO"
+    }
+]
