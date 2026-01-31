@@ -1,46 +1,56 @@
-# Playwright Automation Project
+**Playwright Automation – Swift Translator**
+Registration Number: IT23819610
 
-This project automates 36 test cases for Singlish to Sinhala/Tamil text conversion.
+**Project Overview**
+This repository contains automated test cases developed using Playwright to test the Swift Translator web application.
+Both Positive and Negative Functional/UI test cases are implemented based on the provided test case template.
 
-## Prerequisites
+**Technologies Used**
+- Node.js
+- Playwright
+- JavaScript
+- VS Code
 
-- Node.js (v14 or higher)
-- npm
+**Prerequisites**
+Before running the tests, ensure the following are installed:
+- Node.js (v18 or above)
+- npm (comes with Node.js)
+- Git
 
-## Installation
+**Installation Instructions**
+1. Clone the repository:
+   git clone https://github.com/AyeshaDulanjali/IT23819610.git
 
-1.  Clone the repository or download the source code.
-2.  Open a terminal in the project root.
-3.  Install dependencies:
+2. Navigate to the project directory:
+   cd IT23819610
 
-```bash
-npm install
-```
+3. Install project dependencies:
+   npm install
 
-## Configuration
+4. Install Playwright browsers:
+   npx playwright install
 
-1.  Open `tests/automation.spec.js`.
-2.  Update `TARGET_URL` with the actual URL of the application to test.
-3.  Open `tests/test_data.json`.
-4.  Update the `expected_output` fields with the correct Sinhala/Tamil text.
-5.  Update the selectors in `tests/automation.spec.js` (`inputLocator`, `outputLocator`) to match the HTML elements of the target website.
+**Running the Tests**
+To execute all automated test cases:
+   npx playwright test
 
-## Running Tests
+To run tests in headed mode:
+   npx playwright test --headed
 
-To run all tests:
+**Viewing the HTML Test Report**
+After test execution, view the Playwright HTML report using:
+   npx playwright show-report
+   
+**Run And open it Swift Translator**
+use this code - npx playwright test negative.spec.js --headed
+                npx playwright test positive.spec.js --headed
 
-```bash
-npx playwright test
-```
+Alternatively, open the report manually:
+   playwright-report/index.html
 
-To run a specific test file:
+**Test Structure**
+- tests/positive.spec.js – Positive functional and UI test cases
+- tests/negative.spec.js – Negative functional and UI test cases
+- playwright.config.js – Playwright configuration file
 
-```bash
-npx playwright test tests/automation.spec.js
-```
 
-To view the report:
-
-```bash
-npx playwright show-report
-```
